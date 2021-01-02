@@ -6,6 +6,9 @@ class Maps:
     d = None
 
     def __init__(self, d):
+        '''
+        d has to be a dict!
+        '''
         self.d = d
     
     def getMapValueFromKey(self, key):
